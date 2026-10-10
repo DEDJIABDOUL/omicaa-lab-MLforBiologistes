@@ -1,0 +1,9 @@
+# Fichiers produits à l'exécution des notebooks (reproductibles, non versionnés)
+notebooks/figures/
+notebooks/results/
+notebooks/models/
+notebooks/data/
+notebooks/donnees_demo/
+data/cache/
+__pycache__/
+.ipynb_checkpoints/

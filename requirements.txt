@@ -1,0 +1,14 @@
+# Dépendances du parcours Omicaa Lab : Machine Learning et Deep Learning pour les biologistes.
+# Versions avec lesquelles les notebooks ont été exécutés et validés : Python 3.12,
+# numpy 2.4.4, pandas 3.0.2, matplotlib 3.10.8, scikit-learn 1.8.0, scipy 1.17.1,
+# tensorflow 2.21.0, joblib 1.5.3. Les bornes inférieures ci-dessous sont indicatives
+# et n'ont pas toutes été testées. Google Colab fournit déjà la plupart de ces paquets.
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.9
+scikit-learn>=1.4
+joblib>=1.3
+tensorflow>=2.16
+rdata>=0.11
+jupyter
