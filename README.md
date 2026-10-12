@@ -4,8 +4,6 @@
 
 Dispositif de formation autonome comprenant un ebook PDF d'environ 30 pages, sept notebooks Jupyter exécutables dans Google Colab et ce dépôt. L'apprenant construit progressivement un système prédictif à partir de données biologiques, depuis les premières lignes de Python jusqu'à un projet intégrateur sur des données d'expression génique.
 
-> **Statut de publication.** Ce dépôt a été préparé localement. Les liens Colab ci-dessous pointent vers le chemin prévu `github.com/DEDJIABDOUL/omicaa-lab-machine-learning-bioinformatics` (branche `main`) et ne fonctionneront qu'après publication. Les notebooks n'ont pas été testés dans Google Colab lui-même.
-
 ## Objectifs
 
 À l'issue du parcours, l'apprenant sait examiner un jeu de données inconnu, définir une question prédictive, construire un pipeline sans fuite d'information, comparer des modèles à un modèle de référence, optimiser des hyperparamètres sans toucher au test, évaluer avec des métriques justifiées, sauvegarder et recharger un modèle, et distinguer performance prédictive, association statistique et conclusion biologique.
@@ -18,13 +16,13 @@ Aucun prérequis informatique. Des connaissances élémentaires de biologie et d
 
 | Notebook | Contenu | Ouvrir dans Colab |
 |---|---|---|
-| 01 Python fondamentaux | variables, fonctions, FASTA, exceptions | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-machine-learning-bioinformatics/blob/main/notebooks/01_python_fondamentaux.ipynb) |
-| 02 NumPy, pandas, exploration | tableaux, DataFrames, contrôle qualité | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-machine-learning-bioinformatics/blob/main/notebooks/02_numpy_pandas_exploration.ipynb) |
-| 03 Visualisation et prétraitement | figures, valeurs atypiques, partitionnement, fuite | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-machine-learning-bioinformatics/blob/main/notebooks/03_visualisation_et_pretraitement.ipynb) |
-| 04 Classification et pipelines | modèle de référence, 4 algorithmes, métriques | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-machine-learning-bioinformatics/blob/main/notebooks/04_classification_biologique_pipeline.ipynb) |
-| 05 Validation et optimisation | validation croisée, recherche d'hyperparamètres, test final | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-machine-learning-bioinformatics/blob/main/notebooks/05_validation_et_optimisation.ipynb) |
-| 06 Deep learning TensorFlow | neurone, gradient, réseau Keras, surapprentissage | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-machine-learning-bioinformatics/blob/main/notebooks/06_deep_learning_tensorflow.ipynb) |
-| 07 Projet intégrateur | expression génique de leucémies, sélection sans fuite | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-machine-learning-bioinformatics/blob/main/notebooks/07_projet_integrateur_bioinformatique.ipynb) |
+| 01 Python fondamentaux | variables, fonctions, FASTA, exceptions | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-MLforBiologistes/blob/main/notebooks/01_python_fondamentaux.ipynb) |
+| 02 NumPy, pandas, exploration | tableaux, DataFrames, contrôle qualité | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-MLforBiologistes/blob/main/notebooks/02_numpy_pandas_exploration.ipynb) |
+| 03 Visualisation et prétraitement | figures, valeurs atypiques, partitionnement, fuite | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-MLforBiologistes/blob/main/notebooks/03_visualisation_et_pretraitement.ipynb) |
+| 04 Classification et pipelines | modèle de référence, 4 algorithmes, métriques | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-MLforBiologistes/blob/main/notebooks/04_classification_biologique_pipeline.ipynb) |
+| 05 Validation et optimisation | validation croisée, recherche d'hyperparamètres, test final | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-MLforBiologistes/blob/main/notebooks/05_validation_et_optimisation.ipynb) |
+| 06 Deep learning TensorFlow | neurone, gradient, réseau Keras, surapprentissage | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-MLforBiologistes/blob/main/notebooks/06_deep_learning_tensorflow.ipynb) |
+| 07 Projet intégrateur | expression génique de leucémies, sélection sans fuite | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-MLforBiologistes/blob/main/notebooks/07_projet_integrateur_bioinformatique.ipynb) |
 
 L'ebook `ebook/ebook_machine_learning_biologie.pdf` est le texte de référence qui accompagne les notebooks.
 
@@ -33,8 +31,8 @@ L'ebook `ebook/ebook_machine_learning_biologie.pdf` est le texte de référence 
 1. Dans Colab : ouvrir un notebook, puis *Exécution* puis *Tout exécuter*. Les notebooks 01 à 07 s'exécutent dans l'ordre et chacun est autonome.
 2. En local :
    ```bash
-   git clone https://github.com/DEDJIABDOUL/omicaa-lab-machine-learning-bioinformatics.git
-   cd omicaa-lab-machine-learning-bioinformatics
+   git clone https://github.com/DEDJIABDOUL/omicaa-lab-MLforBiologistes.git
+   cd omicaa-lab-MLforBiologistes
    python -m venv .venv && source .venv/bin/activate
    pip install -r requirements.txt
    cd notebooks && jupyter lab
@@ -46,7 +44,7 @@ Les notebooks écrivent dans leur dossier de travail `figures/`, `results/` (jou
 
 ## Sources des données
 
-Voir [`data/README.md`](data/README.md). Breast Cancer Wisconsin (Diagnostic) : UCI, DOI 10.24432/C5DW2B, CC BY 4.0. Golub et al. (1999) : copie publique sur GitHub, **licence non vérifiée**.
+Voir [`data/README.md`](data/README.md). Breast Cancer Wisconsin (Diagnostic) : UCI, DOI 10.24432/C5DW2B, CC BY 4.0. Golub et al. (1999) : copie publique sur GitHub.
 
 ## Bibliothèques
 
@@ -55,11 +53,11 @@ NumPy, pandas, Matplotlib, SciPy, scikit-learn, TensorFlow/Keras, joblib, rdata.
 ## Structure du dépôt
 
 ```
-omicaa-lab-machine-learning-bioinformatics/
+omicaa-lab-MLforBiologistes/
   README.md
   requirements.txt
   ebook/ebook_machine_learning_biologie.pdf
-  notebooks/01 ... 07 (.ipynb)
+  notebooks/01 ...  (.ipynb)
   data/README.md
   references/README.md
 ```
