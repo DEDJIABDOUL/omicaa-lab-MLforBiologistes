@@ -16,6 +16,7 @@ Aucun prérequis informatique. Des connaissances élémentaires de biologie et d
 
 | Notebook | Contenu | Ouvrir dans Colab |
 |---|---|---|
+| 00 Base_Python initial | type de variables, operateur, les boucles | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-MLforBiologistes/blob/main/notebooks/00_Base_python.ipynb) |
 | 01 Python fondamentaux | variables, fonctions, FASTA, exceptions | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-MLforBiologistes/blob/main/notebooks/01_python_fondamentaux.ipynb) |
 | 02 NumPy, pandas, exploration | tableaux, DataFrames, contrôle qualité | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-MLforBiologistes/blob/main/notebooks/02_numpy_pandas_exploration.ipynb) |
 | 03 Visualisation et prétraitement | figures, valeurs atypiques, partitionnement, fuite | [ouvrir](https://colab.research.google.com/github/DEDJIABDOUL/omicaa-lab-MLforBiologistes/blob/main/notebooks/03_visualisation_et_pretraitement.ipynb) |
@@ -57,8 +58,9 @@ omicaa-lab-MLforBiologistes/
   README.md
   requirements.txt
   ebook/ebook_machine_learning_biologie.pdf
-  notebooks/01 ...  (.ipynb)
+  notebooks/00_ ...  (.ipynb)
   data/README.md
+  Exercice/(01_regression_ML_bioinfo.ipynb, 02_classification_ML_bioinfo.ipynb)
   references/README.md
 ```
 
